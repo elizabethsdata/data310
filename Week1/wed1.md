@@ -32,7 +32,7 @@
     - The predicted value does match the test label. We did not use softmax() because we wanted to know if the prediction matched the test data. 
     To compare, we needed the model to make a final decision, argmax() simply picks the most likely option, as that is the clothing the model thinks is most likely to be correct
       
-### Numbers
+## Numbers
 
 * <img src="images/img255_v.png" width="450">
 * Test accuracy: 0.9765000343322754
