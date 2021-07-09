@@ -1,4 +1,4 @@
-# Index Applied Machine Learning 
+# [Index Applied Machine Learning](https://elizabethsdata.github.io/data310/)
 ## Informal Exercises
 - Module 1
     - [Tuesday's Response](Week1/tues1.md)
