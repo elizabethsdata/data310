@@ -23,10 +23,20 @@
       The fractions assigned to each number in the array represent the relative probabilities of each outcome. In this example, it shows 
       the probability of each item of clothing. Argmax(), on the other hand, gives a hard result of the most likely category,
       and returns a value of 0 for everyone else. It is the hard prediction of what the model thinks is most likely, while softmax 
-      gives a range of possibilities. In this case, the output from Argmax matches the result from the test_labels dataset. 
-      
+      gives a range of possibilities. In this case, the output from Argmax matches the result from the test_labels dataset.
         
+  *  Verify Predictions
+        -  <img src="images/img255_v.png" width="250"> <img src="images/img404_v.png" width="250">
+  - Use the trained model
+    - <img src="images/img530_test.png" width="250">
+    - The predicted value does match the test label. We did not use softmax() because we wanted to know if the prediction matched the test data. 
+    To compare, we needed the model to make a final decision, argmax() simply picks the most likely option, as that is the clothing the model thinks is most likely to be correct
+      
+### Numbers
 
-  - Verify Predictions
-    - <img src="images/img255_v.png" width="250"> <img src="images/img404_v.png" width="250">
-    - 
+* <img src="images/img255_v.png" width="450">
+* Test accuracy: 0.9765000343322754
+* Verify Predictions: 
+    * <img src="images/numbs_394_t.png" width="250"> <img src="images/numbs_7_t.png" width="250">
+    * These two models are very similar in design. I think this is because numbers are far more simple shapes than 
+    types of clothing, and it is easier for the network to find patterns in the data. There are fewer distinctive features in types of clothing. 
