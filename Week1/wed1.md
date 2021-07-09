@@ -34,7 +34,7 @@
       
 ## Numbers
 
-* <img src="images/img255_v.png" width="450">
+* <img src="images/nums_25.png" width="450">
 * Test accuracy: 0.9765000343322754
 * Verify Predictions: 
     * <img src="images/numbs_394_t.png" width="250"> <img src="images/numbs_7_t.png" width="250">
