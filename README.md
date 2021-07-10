@@ -9,5 +9,5 @@
 
 ## Projects
 
-- Project 1 
-- Project 2
+- [Project 1](Projects/proj1.md) 
+
