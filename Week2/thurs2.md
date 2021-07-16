@@ -19,6 +19,8 @@ For today, we fit two datasets into an image classification algorithm. I ran int
 
 
 
+
+
 After training the beans dataset, I was able to reach an accuracy on the training data of .97 and an accuracy on the validation data of around .58, with the final epoch being .51. As you can see on the graph, the validation loss is actually best at  the beginning, and slowly gets worse over time. The validation accuracy is similar but less dramatic. The highly accurate training set leads me to believe that the model quickly became overfit. 
 
 #### Augmented Model
@@ -27,6 +29,8 @@ After training the beans dataset, I was able to reach an accuracy on the trainin
   <img src="thurs2img/beans_aug.png" alt="beans_aug" style="zoom: 45%;" />
   <img src="thurs2img/beans_aug_graph.png" alt="beans_aug_graph" style="zoom: 57%;" />
 </p>
+
+
 
 
 
