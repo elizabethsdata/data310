@@ -5,7 +5,10 @@
     - [Wednesday's Response](Week1/wed1.md)
     ***REMOVED***
   
--  Module 2
+- Module 2
+    - [Monday's Response](https://johnkwillis.github.io/data310/monday2.html)
+    - [Tuesday's Response](Week2/tues2.md)
+    - [Thursday's Response](Week2/thurs2.md)
 
 ## Projects
 
