@@ -8,10 +8,12 @@ For today, we fit two datasets into an image classification algorithm. I ran int
 
 
 
-<p align="middle">
+<p float="left">
   <img src="beans_orig.png" alt="beans_orig" style="zoom: 45%;" />
   <img src="beans_orig_graph.png" alt="beans_orig_graph" style="zoom: 57%;" />
 </p>
+
+
 
 
 
@@ -21,10 +23,12 @@ After training the beans dataset, I was able to reach an accuracy on the trainin
 
 #### Augmented Model
 
-<p align="middle">
+<p float="middle">
   <img src="thurs2img/beans_aug.png" alt="beans_aug" style="zoom: 45%;" />
   <img src="thurs2img/beans_aug_graph.png" alt="beans_aug_graph" style="zoom: 57%;" />
 </p>
+
+
 
 
 
@@ -37,7 +41,7 @@ Next I applied image augmentation to the dataset. The data did get considerably 
   <img src="thurs2img/beans_aug_dropout_graph.png" alt="beans_aug_dropout_graph" style="zoom: 57%;" />
 </p>
 
-
+I also decided to try to model it with ```layers.Dropout(0,2)``` enabled, as we have used that to decrease overfitting before. On one hand, this definitely incresed the time it took for the training accuracy to increase, taking all 25 epochs to even reach 90%, it didn't help much with the validation accuracy. In fact, it hurt it immensely, with only an accuracy of .33 at the end. I have no idea why this would happen, but dropout was definitely a bad influence on the model overall. 
 
 
 
