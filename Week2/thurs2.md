@@ -8,12 +8,10 @@ For today, we fit two datasets into an image classification algorithm. I ran int
 
 
 
-<p float="left">
+<p align="middle">
   <img src="beans_orig.png" alt="beans_orig" style="zoom: 45%;" />
   <img src="beans_orig_graph.png" alt="beans_orig_graph" style="zoom: 57%;" />
 </p>
-
-
 
 
 
@@ -25,14 +23,10 @@ After training the beans dataset, I was able to reach an accuracy on the trainin
 
 #### Augmented Model
 
-<p float="middle">
+<p align="middle">
   <img src="thurs2img/beans_aug.png" alt="beans_aug" style="zoom: 45%;" />
   <img src="thurs2img/beans_aug_graph.png" alt="beans_aug_graph" style="zoom: 57%;" />
 </p>
-
-
-
-
 
 
 
@@ -49,7 +43,14 @@ I also decided to try to model it with ```layers.Dropout(0,2)``` enabled, as we 
 
 
 
+## Eurosat
 
+#### Base Model
+
+- 
+
+| ![alt](thurs2img/eurosat_orig.png) ![alt](thurs2img/eurosat_orig_graph.png) |      |
+| :----------------------------------------------------------: | ---- |
 
 
 
