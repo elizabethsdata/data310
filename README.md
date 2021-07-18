@@ -8,6 +8,7 @@
 - Module 2
     - [Monday's Response](https://johnkwillis.github.io/data310/monday2.html)
     - [Tuesday's Response](Week2/tues2.md)
+    - [Tuesday's Response pt2](Week2/tues2pt2.md)
     - [Thursday's Response](Week2/thurs2.md)
 
 ## Projects
