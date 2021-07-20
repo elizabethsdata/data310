@@ -10,7 +10,8 @@
     - [Tuesday's Response](Week2/tues2.md)
     - [Tuesday's Response pt2](Week2/tues2pt2.md)
     - [Thursday's Response](Week2/thurs2.md)
-
+- Module 3
+    - [Monday's Response](Week3/mon3.md)
 ## Projects
 
 - [Project 1](Projects/Project1/proj1.md)
