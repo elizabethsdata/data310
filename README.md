@@ -14,6 +14,7 @@
     - [Monday's Response](Week3/mon3.md)
     - [Tuesday's Response](Week3/tues3.md)
     - [Wednesday's Response](Week3/wed3.md)
+    - [Thursday's Response](Week3/thurs3.md)
 ## Projects
 
 - [Project 1](Projects/Project1/proj1.md)
