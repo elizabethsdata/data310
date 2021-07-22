@@ -12,5 +12,11 @@ I used TensorFlow's make_csv_dataset command to create the tensorflow dataset. T
 
 Before the model itself, I used tf.stack to pack the features into a single array with the shape (batch size, num_features). The type of model we used is a neural network, or a network of different hidden layers of neurons that take input connections from the previous layers. This model allows for highly complex relationships. The category of neural network used is a dense fully connected neural network. The output of this will be the probability of each type of iris flower. 
 
-To create this model I used the TensorFlow keras API. I created two keras dense layers with 10 nodes each, and an output layer of. 3 nodes (one for each flower). I also specified the input shape of (4,). Each layer used ReLU to create its' output shape of each node. The rules of ReLU are if the input is negative or zero, output is 0, and if input is poisitive, output equals input. The ideal number of layers and neurons depends on the problem and often requires experimentation, but generally more neurons makes a more powerful model, but needs more data to feed it. 
+To create this model I used the TensorFlow keras API. I created two keras dense layers with 10 nodes each, and an output layer of. 3 nodes (one for each flower). I also specified the input shape of (4,). Each layer used ReLU to create its' output shape of each node. The rules of ReLU are if the input is negative or zero, output is 0, and if input is poisitive, output equals input. The ideal number of layers and neurons depends on the problem and often requires experimentation, but generally more neurons makes a more powerful model, but needs more data to feed it. The functions used in the model are softmax and argmax, with softmax returning the probabilities of reach result, and argmax outputting which it thinks is most likely as the final prediction. 
+
+## Training
+
+
+
+
 
