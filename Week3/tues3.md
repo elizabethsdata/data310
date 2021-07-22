@@ -16,7 +16,38 @@ To create this model I used the TensorFlow keras API. I created two keras dense 
 
 ## Training
 
+For training we gradually optimize the neural network by feeding it data from the training dataset. Over time (depending on number of epochs) the model runs itself over the data and gets better and better at predicting the training dataset each time. This can have issues, however, as you can match it too well, causing overfitting. This happens when it matches the specific randomness of the training sample and picks up the noise instead of the underlying trend, making it an inaccurate model for a different set of testing data. 
 
+Training gets better by trying to minimize the loss function, eg whatever mathematical function you set to "grade" the model. This model used "sparse categorical crossentropy", which calculates the average losses across the examples. For an optimizer, I used stochastic gradient descent, basically it adjusts parameters to slowly move in the direction towards a local minima that reduces the loss function. 
 
+The loop inside each epoch is as follows. First, it iterates over each example in the dataset and grabs its features/label. With that, it makes a prediction using the neural network and compares it with the label. It measures the inaccuracy of said prediction and calculates the loss/gradients. It then uses the optimizer to tweak the models variables, records some stats, and then repeats into the next epoch. For this we had 201 epochs. 
 
+## Training Results
 
+![loss_tues](loss_tues.png)
+
+This graph represents the 201 epochs and the loss/accuracy statistics over time. As you can see, the loss slowly goes town and then begins to flatten out. The accuracy spikes a bit at first, and then slowly improves until it begins to flatten out. This is a sign that the accuracy won't improve much from doing more epochs as it is pretty steady. 
+
+![tues_results](tues_results.png)Against the test dataset, this was 96.6% accurate. This is an extremely good result, especially for the test dataset. The test dataset just used the model without changing it on the input data from the test dataset and used argmax() to give a prediction, and then graded the accuracy of the predictions. 
+
+## Predictions
+
+I used the following dataset to test its predictions on numbers I totally made up: 
+
+```python
+predict_dataset = tf.convert_to_tensor([
+    [6.1, 4.3, 2.3, 1.4,],
+    [4.9, 3.5, 4.6, 0.6,],
+    [3.2, 5.1, 6.3, 1.1]
+])
+```
+
+So each [] is the features for one made up flower. 
+
+```
+Example 0 prediction: Iris setosa (93.9%)
+Example 1 prediction: Iris versicolor (94.7%)
+Example 2 prediction: Iris virginica (93.5%)
+```
+
+So for the first one it is 93.9% sure it is a setosa, for the second it is 94.7% ure it is a versicolor, and for the third it is 93.5% sure it is a virginica. Interesting that it was so sure with the random numbers I made up. 
