@@ -18,3 +18,4 @@
 ## Projects
 
 - [Project 1](Projects/Project1/proj1.md)
+- [Project 3](Projects/Project3/Project3.md)
