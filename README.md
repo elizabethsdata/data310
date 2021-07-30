@@ -17,6 +17,7 @@
     - [Thursday's Response](Week3/thurs3.md)
 - Module 4
     - [Wednesday's Response](Week4/Wednesday/images.md)
+    - [Thursday's Response](Week4/Thursday/text.md)
 ## Projects
 
 - [Project 1](Projects/Project1/proj1.md)
