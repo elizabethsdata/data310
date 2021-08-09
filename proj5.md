@@ -8,3 +8,5 @@ Using data from the US Census Bureau, specficially the 2019 American Community S
 
 ## [Presentation](https://docs.google.com/presentation/d/1D3daSWO6kgrrGgWWUD-U__ZssHlr0__o_0J6_QRzM6c/edit?usp=sharing)
 
+## [Video](https://youtu.be/r5LYVGgI0rc)
+
