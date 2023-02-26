@@ -1,4 +1,9 @@
 # [Index Applied Machine Learning](https://elizabethsdata.github.io/data310/)
+
+## NOTE
+
+Just an FYI: This repo was made when I had no idea what I was doing stats wise, and wash a sophmore in college. I comitted some serious stats crimes here, but was a learning experience so I'm keeping it up
+
 ## Informal Exercises
 - Module 1
     - [Tuesday's Response](Week1/tues1.md)
