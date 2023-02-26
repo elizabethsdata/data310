@@ -3,7 +3,6 @@
 - Module 1
     - [Tuesday's Response](Week1/tues1.md)
     - [Wednesday's Response](Week1/wed1.md)
-    ***REMOVED***
   
 - Module 2
     - [Monday's Response](https://johnkwillis.github.io/data310/monday2.html)
